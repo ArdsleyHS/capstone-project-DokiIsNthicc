@@ -1,3 +1,140 @@
+.sidebarq {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebarq a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebarq a:hover {
+  color: #f1f1f1;
+}
+
+.mainq {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+.expand {
+    width:20%;
+    height:;
+    display:block;
+    transition:1s ease-out;
+    transition-delay:2s;
+    background-image:url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg');
+}
+
+.expand:hover {
+    width:100%;
+    height:;
+    transition:1.4s ease-in;
+    display:block;
+    
+}
+
+
+.expand2 {
+    width:35%;
+    height:;
+    display:block;
+    transition:1s ease-out;
+    transition-delay:2s;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdnuxXXmsnvN9MjhuNyhBkjdUI2lOPQNEaQ&usqp=CAU');
+}
+
+.expand2:hover {
+    width:100%;
+    height:;
+    transition:1.4s ease-in;
+    display:block;
+    
+}
+.expand-text {
+    opacity:100%; 
+    width:0%;
+}
+
+.expand-text:hover {
+    opacity:100%; 
+    width:100%;
+    transition:2s;
+    border:10px 10px;
+    background-image:url('https://www.color-hex.com/palettes/63813.png');
+}
+
+
+#img1pos {
+    text-align:center;
+    margin: auto;
+    display:inline;
+
+}
+
+.Cinzel {
+    font-family: 'Cinzel', serif;
+}
+#img2pos {
+    text-align:center;
+    margin: 0px;
+    display:inline;
+    
+}
+
+#img3pos {
+    text-align:center;
+    margin: auto;
+    display:inline;
+
+}
+
+.center01 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.possticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+.ValSelCha {
+    padding:10px 10px 10px 10px;
+    margin:10px;
+    
+}
+
+.ValSelCha:click {
+}
+.bgimg-jett{
+    background-image:url('https://cutewallpaper.org/21/minecraft-dirt-background/Guest-Picks-Score-Points-With-a-Minecraft-Inspired-Bedroom.jpg');
+    background-repeat:0;
+    background-size:;
+    filter:blur(0px);
+    float:center;
+}
+}
+
+
+.container:hover {
+  width: 100%;
+}
+
 
 .font1 {
     font-family: 'Questrial', sans-serif;
@@ -31,6 +168,35 @@ body {
 .w3thirdbox{
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
+}
+
+.w3valbox{
+    background-image:url('https://cdna.artstation.com/p/assets/images/images/024/820/442/large/suke-valorant-phx-jett-brand.jpg?1583645279');
+    width:100%;
+    height:100%;
+    color:#fff;
+    background-repeat:repeat-x;
+}
+
+.w3valboxcolor {
+    background-color:#ca3e47;
+}
+
+.Desc {
+    
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+.test:hover {
+    text:BOOM;
+}
+#FPSsize{
+    font-size:500px;
+    color:#fff;
 }
 .navbar {
     padding-top: 15px;
@@ -67,3 +233,194 @@ body {
     height:500px;
     transition:2s;ease-in-out;
 }
+
+.scaleupval {
+    height:256px;
+    width:256px;
+    transition:2s; ease-out;
+}
+
+.scaleupval:hover {
+    height:381px;
+    width:381px;
+    transition:.5s;ease-in-out;
+    filter:saturate(130%) ;
+}
+
+.dropdown-toggle {
+    transition:2s;
+}
+
+.header {
+    margin: (60px, 60px, 60px, 60px);
+    padding:(15px, 60px, 60px, 60px);
+    text-align: center;
+    background-image:url('https://data.whicdn.com/images/346576239/original.gif');
+}
+
+.redjett {
+    background-image:url('https://media1.giphy.com/media/0hGEdu5FU9xixsZkC8/200.gif');
+    background-image:url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/182030099/original/600836d82994178b8a141ed775124efe8411cb0f/edit-your-valorant-montage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+    
+}
+
+.BakugoMargin {
+    background-image:url('https://data.whicdn.com/images/346576239/original.gif');
+    margin:(90px);
+    padding(15px)
+    background-image:url('https://cdna.artstation.com/p/assets/images/images/024/820/442/large/suke-valorant-phx-jett-brand.jpg?1583645279');
+    width:500%;
+    height:500%;
+    color:#fff;
+    background-repeat:repeat-y;
+}
+
+#Phenoix-bg {
+    background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef740c5a-5c00-4333-8b9b-e16b92b97864/ddxw7hn-2f434f84-93c9-4537-8d42-83002793c4e4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VmNzQwYzVhLTVjMDAtNDMzMy04YjliLWUxNmI5MmI5Nzg2NFwvZGR4dzdobi0yZjQzNGY4NC05M2M5LTQ1MzctOGQ0Mi04MzAwMjc5M2M0ZTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EqMgerlhKXNro9a5M_zep78YoD_qgUFU6APxEN1ont8');
+    repeat:0;
+    width:100%;
+    height:100%;
+}
+
+.text-shadow-drop-center {
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	        animation: text-shadow-drop-center 0.6s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-5-28 15:14:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * @animation text-shadow-drop-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 20px 20px 18px rgba(0, 0, 0, .35);
+  }
+}
+
+
+
+
+
+.slide-in-blurred-left {
+	-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-5-26 17:57:51
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+            transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+            transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+.shadow-drop-2-center{-webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both}
+
+
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+
+
+ .shadow-inset-center {
+     
+ }
+.shadow-inset-center:hover {-webkit-animation:shadow-inset-center .4s cubic-bezier(.165,.84,.44,1.000) both;animation:shadow-inset-center .4s cubic-bezier(.165,.84,.44,1.000) both}
+@-webkit-keyframes shadow-inset-center{0%{-webkit-box-shadow:inset 0 0 0 0 transparent;box-shadow:inset 0 0 0 0 transparent}100%{-webkit-box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5);box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5)}}@keyframes shadow-inset-center{0%{-webkit-box-shadow:inset 0 0 0 0 transparent;box-shadow:inset 0 0 0 0 transparent}100%{-webkit-box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5);box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5)}}
+
+
+
+.text-shadow-drop-center4 {
+	-webkit-animation: text-shadow-drop-center4 0.6s both;
+	        animation: text-shadow-drop-center4 0.6s both;
+}
+
+
+@-webkit-keyframes text-shadow-drop-center4 {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center4 {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+# text animations from Animista 
