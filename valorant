@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Stylecss---!>
+        
+        
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color:#e6e6e6;">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid" size = 25%>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">WHO</a></li>
+                <li><a href="types.html">TYPES</a></li>
+                <li><a href="Valorant.html">WHERE</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <span>
+        <img id=imgpos1 class="header container-fluid text-center" width=50% style="float:right" src="https://logodownload.org/wp-content/uploads/2020/06/valorant-logo.png">
+            
+            
+            <div>
+                <h1 class="font1 mainq">[ v a l o r a n t ]</h1>
+        </span>          
+        <!-- AGENTS --> 
+                <span class="sidebarq font1" style="color:#fff">
+                    <p style="font-size:20px">AGENTS</p>
+                    <li class=expand>Jett</li>
+                    <li class=expand2>Breach</li>
+                    <li>Viper</li>
+                    <li>Phenoix</li>
+                    <li>KillJoy</li>
+                    <li>Cypher</li>
+                    <li>Omen</li>
+                    <li>Raze</li>
+                    <li>Sova</li>
+                    <li>Astra</li>
+                    <li>Yoru</li>
+                    <li>Skye</li>
+                    <li>Sage</li>
+                    <li>Brimstone</li>
+                    <li>Reyna</li>
+                 <br>
+        <!-- Weapons -->
+                <hr>
+                    <p style="font-size:20px">Arsenal</p>
+                    <p style="font-size:15px">Pistols</p>
+                    <li>Classic</li>
+                    <li>Shorty</li>
+                    <li>Frenzy</li>
+                    <li>Ghost</li>
+                    <li>Sheriff</li>
+                    
+                        <br>
+                    
+                    <p style="font-size:15px">SMGs</p>
+                    <li>Stinger</li>
+                    <li>Scepter</li>
+                    
+                        <br>
+                                            
+                    <p style="font-size:15px">Shotguns</p>
+                    <li>Bucky</li>
+                    <li>Judge</li>
+                        
+                        <br>
+                    
+                    <p style="font-size:15px">Assult Rifles</p>
+                    <li>Bulldog</li>
+                    <li>Guardian</li>
+                    <li>Phantom</li>
+                    <li>Vandal</li>
+                    
+                        <br>
+                    
+                    <p style="font-size:15px">Snipers</p>
+                    <li>Marshall</li>
+                    <li>Operator</li>
+                    
+                        <br>
+                        
+                    <p style="font-size:15px">Full-Auto-MachineGuns</p>
+                    <li>Ares</li>
+                    <li>Odin</li>
+                </span>
+            </div>
+        
+        <div class="mainq" style=" position:absolute;  display:block;  background-imae:url('https://www.publicdomainpictures.net/pictures/100000/velka/geometric-pattern-1406209266PaU.jpg')">
+            <h1 class="font1" style="font-size:200px;"> Maps</h1>
+            </div>
+            
+            <div class="mainq " style="position:block">
+                <img style="padding:220px 0px 0px 0px; width:40%; margin:auto;" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9834851b906877fe/6082129712dc9d3c683578ec/4_27_2021_Patch2.8Article_Banner.jpg">
+                <img style="padding:20px 0px 0px 0px; width:40%; margin:auto;"  src="https://static.wikia.nocookie.net/valorant/images/e/e7/Loading_Screen_Ascent.png/revision/latest?cb=20200607180020" alt="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/04/valorant-new-map-leak-ascent.jpg">
+                <img src="https://static.wikia.nocookie.net/valorant/images/7/70/Loading_Screen_Haven.png/revision/latest?cb=20200620202335">
+  
+  
+            </div>
+            
+            
+            
+    
+
+            
+    </body>
+    </html>
