@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -6,14 +7,17 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </head>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
     <body style="background-color:#5a5766;">
         
         <ul class="Lato" style="color:white; font-style:bold; font-size:16px;">
@@ -28,7 +32,7 @@
             
         </ul>
         
-        <div class="" style="margin:13%;">
+        <div class="" style="margin:13% 13% 0% 13%;">
             <h1 style="font-size:150px; font-family: 'Lato', sans-serif;" class="text-shadow-drop-center text-center Lato header White">Kyu's Kyu-ing</h1>
             <h2 style="font-size:50px; font-family: 'Lato', sans-serif;" class="text-shadow-drop-center text-center Lato header White">
                 Get insight on how I play and think about Games! <br>
@@ -37,9 +41,12 @@
             
         </div>
         
-        <
-        
-    
+        <div>
+            <span>
+                <img style="width:20%; float:left; position:relative; display:inline" class="float" src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX/RlQRERH/SFYACwjvQk8ADg1/Jy0IEBAADAoHEBD/SVj4RFK4NT/dPkoACQWGKTDTO0dQHSCoMToVEhIaExM/GRx2JSuIKTC0ND6hLzhTHSHiP0t6Jiw1FxlJGx/LOUW/N0GULDQ8GBtjISYtFhfqQU5uIyl0MmykAAAEhUlEQVR4nO2ciVbiQBBF6Q4xIYG4jqK4zjj+/ydO9IyokISuppYOvPsB2O9I7ql6NEwmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACATbz1ATrhPNXtU3oZ/fML34tNm2zF92o8+LOmmbK92jSbXdVsr8ZDnRcZZ0KX31VsL8eB/5U73oSuPE0pYnVdOu6ELpunY5tq+XEi5oQuHdv4ReMkEqZjm+msEEno8vM0HsV3y8gkdOVNChGr+9JJJUzCNtXF+jQCCROwTTvLOMmE9rapi0I0YWsb2/fpp2XkEra2sYzoPy0jmNA1hrb5soxkQlea2caf/TiIWMLZpZVt2o1JJWG7SRm9Tx9zp5PQaLb52JiUEprY5qdlpBMa2GbDMuIJC6dtmw3LiCdUt833WUYnoStPNSP6TcsoJFTdpLYto5FQ0TbfNibVhHqb1HTbMioJ1XqbLsvoJFRqibdmGcWEKrbptoxWQteI26bHMmoJC3HbTItOy6glFO9t+iyjl1B4k+q1jGJC0U2q3zKaCV25YPtDG3RsTCYJ5Wabjo3JJKGcbQYso5tQqCWurocDaiYUsc2wZbQTuozdNjsso56wmHHbpmdjMkvI39vssIx+QuZNaqdlDBKyblK7LWORkNE2AZYxScj3mVSAZUwSsvU2QxuTbUKmljjIMkYJWWwTZhmrhAy9zUAvk0TC/XubQMuYJXT543628b8DH0KzhHv2NsGWMUy4l23CLWOZcI/ZhmAZ04TxtiFYxjRhfG9DsIxtwsjZxlMsw51woHjupJnThUqzzDslX0L/OqP+cbJtAjemb8weGGuFZ5LjXMx9G6JlWponvoCT6ob6PiXbJnBj+iJ7Yf1IyN9RD0DrbUizzAf5H+bPvOor6qNIaYnplslfefO1LKhnIMw2dMsU2V/2hH5Otk0Rahu6ZTKJr+0K2oZsmZLXMuuI5+SDnIRE9G90ywh9nFdfkd9MAbaJsMyDTL6WFfVRDLANcWN6h3Fa2zrNnOy8nS1xIpb5pDol22ZHb0PpZf4HvBW9TBdhm8HZJmKWeRO+SldfUmebIdskMctssqK+T13Taxu6ZYpczjLrU9Ft09vbxGxMCpfLPdtsk5xl1gdjsk2MZZS+b1U78ptruX00n9Iss8mCbJuO3qZuchrZg943kSI2qY7Z5uKExM1cLd8kbrbZso0nohkwzjb2P8dAgj7bdNkmaei24b/dJ0tFt01u/YsTRCJsY/yLE2QibHMyskcxordZjuy/uKBXLCOzjURvkxgxthnZo+gfZVrihKgvD9825M+k+nubNPHLg7eNZ2+Jk4Ort0kYem+TRdy3MYW+SY3PNhy9TdKw9DZpcwy9zYyjJU4ayfs2aVDRbRN83yYRImab0fU2EZvUyB5F+iY1PtscfG9T0XubsdnmGFriI+ht6JvU6Hobgdt9aVHRexv1XwrdE39y8L1NdQSzzRH0NkfQEh98b+NvyReepC/GcuNXL7QbT/dn1kcmk/aNJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADpZ/IUVFTa7+j8UAAAAASUVORK5CYII=>
+                <h1 style="color:#d53a44; font-size:300px" class=" Montserrat"><i>V a l o r a n t</i></h1>
+                </span>
+        </div>
 
     </body>
 </html>
