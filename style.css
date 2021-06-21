@@ -10,6 +10,18 @@ body {
     
 }
 
+.propicon {
+    height:256px;
+    transition:2s; ease-out
+    position:inline;
+}
+
+.propicon:hover {
+    height:276px;
+    transition:1.5s; ease-in
+}
+
+
 ul {
   list-style-type: none;
   margin: 0px 0px 0px 00px;
@@ -39,21 +51,6 @@ li.r {
   
 }
 
-li.r:hover {
-    float: right;
-    padding:10px;
-    transition:2s;
-  
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 24px 26px;
-  text-decoration: none;
-}
-
 #li_left {
   float: left;
   padding:10px;
@@ -76,10 +73,12 @@ li a {
 
 .float {
     width:20%;
+    transition:2s; ease-in;
 }
 
 .float:hover {
-    width:25%;
+    width:30%;
+    transition:2s; ease-out;
 }
 
 
